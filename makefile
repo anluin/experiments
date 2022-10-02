@@ -11,3 +11,9 @@ run-swc-compiler-magic:
 		swc-compiler-magic/dist/comptime.js
 	# Run the "comptime example"
 	@deno run swc-compiler-magic/dist/comptime.js
+
+run-strike:
+	@deno run -A strike/main.ts
+
+run-tano-swc:
+	@deno run -A tano-swc/main.ts
